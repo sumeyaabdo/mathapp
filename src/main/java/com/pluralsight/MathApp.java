@@ -45,6 +45,13 @@ public class MathApp {
         double distance = Math.sqrt(sumOfSquare);
         System.out.println("The distance is " + distance);
 
+        //Finding the absolute value
+        double value = -3.8;
+        double valueAfter = Math.abs(value);
+        System.out.println("The value is " + valueAfter);
+
+
+
 
 
 
