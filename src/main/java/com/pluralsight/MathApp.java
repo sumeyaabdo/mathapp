@@ -50,6 +50,11 @@ public class MathApp {
         double valueAfter = Math.abs(value);
         System.out.println("The value is " + valueAfter);
 
+        // Displaying  random number
+        double randomNumber = Math.random();
+        System.out.println("The random number is " + randomNumber);
+
+
 
 
 
