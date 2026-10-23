@@ -18,14 +18,23 @@ public class MathApp {
         // Declaring the variables
         int carPrice = 17000;
         int truckPrice = 50000;
-        int lowestSalary = Math.min(carPrice, truckPrice);
-        System.out.println("The lowestSalary is " + lowestSalary);
+        int lowestPrice = Math.min(carPrice, truckPrice);
+        System.out.println("The lowestSalary is " + lowestPrice);
 
         //Calculating The Area of circle
          double pi = 3.14;
          double radius = 7.25;
          double area = pi * (radius * radius);
         System.out.println("The area is " + area);
+
+        // finding the square root
+        double number = 5.0;
+        double squareRoot = Math.sqrt(number);
+        System.out.println("The square root is " + squareRoot);
+
+
+
+
 
 
 
