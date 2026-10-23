@@ -54,6 +54,15 @@ public class MathApp {
         double randomNumber = Math.random();
         System.out.println("The random number is " + randomNumber);
 
+        //Calculating How many minutes are in 24 days
+        int day = 24;
+        int minutesPerDay = 1440;
+        int minutes;
+        minutes = day * minutesPerDay;
+        System.out.println("There are " + minutes + " minutes in 24 days");
+
+
+
 
 
 
