@@ -32,6 +32,21 @@ public class MathApp {
         double squareRoot = Math.sqrt(number);
         System.out.println("The square root is " + squareRoot);
 
+        //finding The distance
+        int x1 = 5;
+        int y1 = 10;
+        int x2 = 85;
+        int y2 = 50;
+        int xDifference = x1 - x2;
+        int yDifference = y1 - y2;
+        Math.pow(xDifference, 2);
+        Math.pow(yDifference, 2);
+        double sumOfSquare = Math.pow(xDifference, 2) + Math.pow(yDifference, 2);
+        double distance = Math.sqrt(sumOfSquare);
+        System.out.println("The distance is " + distance);
+
+
+
 
 
 
