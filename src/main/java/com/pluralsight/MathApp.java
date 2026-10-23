@@ -21,6 +21,16 @@ public class MathApp {
         int lowestSalary = Math.min(carPrice, truckPrice);
         System.out.println("The lowestSalary is " + lowestSalary);
 
+        //Calculating The Area of circle
+         double pi = 3.14;
+         double radius = 7.25;
+         double area = pi * (radius * radius);
+        System.out.println("The area is " + area);
+
+
+
+
+
 
 
 
