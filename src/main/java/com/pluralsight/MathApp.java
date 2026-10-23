@@ -66,7 +66,7 @@ public class MathApp {
         double millisecondPerDay  = 8.64e+7;
         double milliseconds;
         milliseconds = millisecondPerDay * days;
-        System.out.println("The milliseconds in 24 day is " + milliseconds);
+        System.out.println("The milliseconds in 24 days is " + milliseconds);
 
 
 
