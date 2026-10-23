@@ -15,6 +15,14 @@ public class MathApp {
         highestSalary = Math.max(bobSalary, garySalary);
         System.out.println("The highestSalary is " + highestSalary);
 
+        // Declaring the variables
+        int carPrice = 17000;
+        int truckPrice = 50000;
+        int lowestSalary = Math.min(carPrice, truckPrice);
+        System.out.println("The lowestSalary is " + lowestSalary);
+
+
+
 
 
 
