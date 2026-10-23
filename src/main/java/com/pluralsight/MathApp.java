@@ -61,6 +61,14 @@ public class MathApp {
         minutes = day * minutesPerDay;
         System.out.println("There are " + minutes + " minutes in 24 days");
 
+        // Calculating The milliseconds
+        double days = 24;
+        double millisecondPerDay  = 8.64e+7;
+        double milliseconds;
+        milliseconds = millisecondPerDay * days;
+        System.out.println("The milliseconds in 24 day is " + milliseconds);
+
+
 
 
 
